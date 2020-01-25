@@ -25,6 +25,7 @@ import {HttpClientModule} from "@angular/common/http";
 import { ModalsComponent } from './modals/modals.component';
 import { ResultsComponent } from './modals/results/results.component';
 import { TtableviewComponent } from './modals/ttableview/ttableview.component';
+import { SumSpaceComponent } from './sum-space/sum-space.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { TtableviewComponent } from './modals/ttableview/ttableview.component';
     ModalsComponent,
     ResultsComponent,
     TtableviewComponent,
+    SumSpaceComponent,
   ],
   imports: [
     BrowserModule,
